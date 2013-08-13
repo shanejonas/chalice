@@ -1,5 +1,8 @@
 # Chalice - The Holy Grail
 
+A small framework on top of CoffeeScript Backbone and Node to render
+apps on the client and server.
+
 [grunt-init]: http://gruntjs.com/project-scaffolding
 
 ## Installation
@@ -177,6 +180,9 @@ You can get a list of all the tasks by running `grunt --help`.
 ---
 
 #### Examples Applications:
+
+_(Note that these examples may still be pointing to older npm packages for Chalice libs)_
+
 - [Blog Example](https://github.com/shanejonas/chalice-blog)
 - [Documentation Site](https://github.com/shanejonas/chalice-docs)
 
