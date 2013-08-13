@@ -1,0 +1,8 @@
+node_modules
+.DS_STORE
+build
+.src/
+npm-debug.log
+public/application.js
+public/style.css
+src/pages/

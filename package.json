@@ -1,0 +1,30 @@
+{
+  "name": "chalice",
+  "version": "0.0.0",
+  "description": "A framework on top of Backbone.js for rendering applications on the client and server.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shanejonas/chalice.git"
+  },
+  "author": "Shane Jonas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shanejonas/chalice/issues"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "cheerio": "~0.12.1",
+    "sinon": "~1.7.3"
+  },
+  "dependencies": {
+    "handlebars": "~1.0.12",
+    "backbone": "~1.0.0",
+    "underscore": "~1.5.1",
+    "connect": "~2.8.4"
+  }
+}
