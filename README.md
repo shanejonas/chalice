@@ -186,3 +186,16 @@ _(Note that these examples may still be pointing to older npm packages for Chali
 - [Blog Example](https://github.com/shanejonas/chalice-blog)
 - [Documentation Site](https://github.com/shanejonas/chalice-docs)
 
+
+## Contributing
+
+Add unit tests for any new or changed functionality and Follow the
+[CoffeeScript style guide](https://github.com/polarmobile/coffeescript-style-guide)
+
+#### Running the tests:
+
+```
+npm test
+```
+
+
