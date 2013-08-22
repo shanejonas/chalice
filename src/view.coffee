@@ -1,3 +1,4 @@
+_ = require 'underscore'
 Backbone = require 'backbone'
 
 class View extends Backbone.View
@@ -82,8 +83,28 @@ class View extends Backbone.View
   # remove element, don't remove the dom element unless we have jQuery and
   # stop listening for events.
   remove: ->
+    @trigger 'remove', this
     @$el?.remove()
     @stopListening()
+    @undelegateEvents()
     this
+
+  delegateEvents: (events) ->
+    if not @$el? then return
+    return  unless events or (events = _.result(this, "events"))
+    @undelegateEvents()
+    for key of events
+      method = events[key]
+      method = this[events[key]]  unless _.isFunction(method)
+      if not method then method = => @trigger events[key]
+      match = key.match(delegateEventSplitter)
+      eventName = match[1]
+      selector = match[2]
+      method = _.bind(method, this)
+      eventName += ".delegateEvents" + @cid
+      if selector is ""
+        @$el.on eventName, method
+      else
+        @$el.on eventName, selector, method
 
 module.exports = View
