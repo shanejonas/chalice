@@ -1,4 +1,4 @@
-View = require './view.coffee'
+View = require './view'
 _ = require 'underscore'
 
 class CompositeView extends View

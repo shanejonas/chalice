@@ -1,6 +1,6 @@
 _ = require 'underscore'
-Controller = require './controller.coffee'
-View = require './view.coffee'
+Controller = require './controller'
+View = require './view'
 
 class ViewController extends Controller
 

@@ -1,5 +1,5 @@
 Backbone = require 'backbone'
-CompositeView = require 'chalice-compositeview'
+CompositeView = require './composite'
 _ = require 'underscore'
 
 cache = {}

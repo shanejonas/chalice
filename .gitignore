@@ -6,5 +6,4 @@ npm-debug.log
 public/application.js
 public/style.css
 src/pages/
-src/*.js
 **/.tern-port
