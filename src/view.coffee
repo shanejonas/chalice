@@ -1,6 +1,9 @@
 _ = require 'underscore'
 Backbone = require 'backbone'
 
+# Cached regex to split keys for `delegate`.
+delegateEventSplitter = /^(\S+)\s*(.*)$/
+
 class View extends Backbone.View
 
   className: 'view'
