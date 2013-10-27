@@ -1,6 +1,6 @@
 {
   "name": "chalice",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A small framework on top of CoffeeScript Backbone and Node to render apps on the client and server.",
   "main": "",
   "directories": {

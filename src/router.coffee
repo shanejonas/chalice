@@ -23,7 +23,7 @@ class Router extends Backbone.Router
         item.fetch success: cb
       @lastFetched = dataSources
     else
-      dataSources.fetch success: callback()
+      dataSources.fetch success: callback
       @lastFetched = [dataSources]
 
   getAppView: ->
