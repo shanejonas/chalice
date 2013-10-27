@@ -21,10 +21,12 @@
   "peerDependencies": {
     "backbone": "~1.0.0",
     "handlebars": "~1.0.12",
-    "backbone": "~1.0.0",
     "underscore": "~1.5.1"
   },
   "devDependencies": {
+    "underscore": "~1.5.1",
+    "backbone": "~1.0.0",
+    "handlebars": "~1.0.12",
     "should": "~1.2.2",
     "cheerio": "~0.12.1",
     "sinon": "~1.7.3",
